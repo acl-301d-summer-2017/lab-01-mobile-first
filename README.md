@@ -77,20 +77,13 @@ Find those `TODO` items in the code, and tackle one of them.
 ---
 
 ## Learning Objectives
-* What is Mobile First design?
-* What is Responsive Web Design vs. Adaptive Web Design? - Discuss the difference between the two
-* Formula for flexible layouts
-  * Percentage-based Media
-  * Media Queries: include logical operators, and media types
-  * Fluid Layout
-* Viewport and initial-scale meta tag
-* Provide as a way for students to test their own portfolio on mobile by starting live-server and connecting to their own IP locally.
-* Review embedded media in RWD; challenges, etc.
-* Understanding SMACSS and benefits
-* Breakdown common SMACSS stylesheets and usage
-* Introduction to icomoon icon fonts, how to setup, and usage
-* Introduction to students about the use of a vendor directory, as some may not be familiar with the  regular use of third-party code.
-* Understand the basics of the :before and :after pseudo elements - these will be used to display icons on the front end.
+- Discuss the differences between mobile first design, responsive web design, and adaptive web design.
+- Create a flexible layout using the following: percentage based media, media queries, and fluid layout.
+- Scale a website to its viewport using the meta tag.
+- Streamline development using **live-server**.
+- Organize CSS using SMACSS.
+- Display icons on a website using icon fonts, and specifically IcoMoon.
+- Display icons on a website using the psuedo elements `:before` and `:after`.
 
 ---
 
