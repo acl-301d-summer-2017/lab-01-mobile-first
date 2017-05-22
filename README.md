@@ -1,10 +1,9 @@
-![CF](https://i.imgur.com/7v5ASc8.png)  Lab 01: Mobile First
+Lab 01: Mobile First
 =======
-[Code of Conduct](https://github.com/codefellows/code-of-conduct)
 
 Welcome to your first lab assignment for Code 301!!
 
-Today we'll be kicking off our Blog App by applying what we learned in lectures to implement a mobile-first design, using responsive web design techniques. You'll also need to spend some time getting familiar with the new Git/GitHub & Pair Programming workflow that we'll utilize throughout this course.
+Today we'll be kicking off our Blog App by applying what we learned in lecture to implement a mobile-first design, using responsive web design techniques. You'll also need to spend some time getting familiar with the new Git/GitHub & Pair Programming workflow that we'll utilize throughout this course.
 
 *Please take the time to read carefully through each of the READMEs for lab assignments as they have detailed information regarding your assignment, such as: how to get started, resources, goals, grading rubrics, and how to submit your work.*
 
@@ -48,8 +47,8 @@ Find those `TODO` items in the code, and tackle one of them.
    - you are on a branch with you and your partner's namesake.
    - you are currently within the starter-code directory.
 
-1. Type `atom .` to open this starter-code folder as a project in Atom.
-1. Use the Atom "Find in Project" (command shift "f" if on a Mac) to locate all the `TODO:` items.
+1. Type `code .` to open this starter-code folder as a project in VS Code.
+1. Use the VS Code "Find in Project" (command shift "f" if on a Mac) to locate all the `TODO:` items.
 1. Work through one or two TODO items before switching roles (or one hour, whichever arrives first), testing your code as you go.
 1. In your terminal type `git status` to view the files that you have changed. You should only see the files that you have worked on.
 2. Type `git diff` to see line-item changes with your down arrow key. (Type `q` to exit this mode!)
@@ -58,8 +57,8 @@ Find those `TODO` items in the code, and tackle one of them.
 1. Type `git commit -m "some meaningful message"` where Some meaningful message is a message that **thoroughly** explains your commit.
 1. Type `git status` to ensure there is nothing left to commit.
 1. Type `git push origin your-name-partner-name` to push this branch to your forked repo on GitHub.
-2. On GitHub, Add your navigator as a collaborator (go to settings -> collaborators).
-3. Once they have been added, `Slack` to your partner your forked repo link for them to clone down.
+2. On GitHub, add your navigator as a collaborator (go to settings -> collaborators).
+3. Once they have been added, send your partner your forked repo link for them to clone down.
 
 ### Switch roles
 
@@ -71,9 +70,9 @@ Find those `TODO` items in the code, and tackle one of them.
 6. `mkdir partners-forked-labs`
 7. `cd partners-forked-labs`
 8. The new driver (original navigator):
-  1. `git clone` the repo your partner Slacked you into your navigator folder.
+  1. `git clone` the repo your partner sent you into your navigator folder.
   2. `git fetch origin` branch-name
-  2. Now open the starter-code in Atom. It's your turn to have the hands on the keyboard!
+  2. Now open the starter-code in VS Code. It's your turn to have the hands on the keyboard!
 
 ---
 
@@ -96,25 +95,21 @@ Find those `TODO` items in the code, and tackle one of them.
 ---
 
 ## Resources  
-<!-- a list of links if any are necessary for the assignment-->
 - [Video: Mobile Testing Tip for Your Phone] (https://www.youtube.com/watch?v=2t4E_tc8TKM)
 
 ---
 
 ## Feature Tasks  
-<!-- a list or description of the feature tasks you want the students to implement -->
 1. Set up the viewport and fluid media rules so content fits on mobile devices.
 1. Add a "Hamburger" menu button, that reveals the nav links when tapped on a mobile device.
 2. Ensure the images are responsive
 
 ### Stretch Goals
-<!-- Include any additional stretch goals for this assignment, which can vary depending on the class and their overall preparedness for additional work. -->
 1. Use media queries to re-style the header and navigation on desktop-width screens. Nav should be tab-like links on one row.
 
 ---
 
 ## Rubric  
-<!-- a list of grading requirements with associated points, scaling to 10pts possible -->
 Criteria | Pts
 ---|---
 Meets all Assignment Reqs | 6
@@ -122,4 +117,3 @@ Uses idiomatic code style | 3
 Follows proper Git workflow | 1
 **Total** | **10**
 
-<!-- links -->
