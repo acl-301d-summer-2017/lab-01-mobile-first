@@ -9,6 +9,11 @@
 }
 
 /* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
+ .icon-menu {
+   font-size: 70px;
+   float: right;
+ }
+
 
 .main-nav {
   padding: 0.1em;
@@ -55,3 +60,28 @@
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
+
+@media only screen and (min-width:1024px){
+  .icon-menu {
+    display: none;
+  }
+  main {
+    padding:25px;
+  }
+  img {
+    width:inherit;
+    padding:10px;
+  }
+
+  .main-nav li {
+    padding:50px 50px 10px 50px;
+  }
+  .main-nav ul{
+    margin-left: 35px;
+    display: inline-flex;
+  }
+
+  .main-nav:hover ul{
+   display:inline-flex; 
+  }
+}
