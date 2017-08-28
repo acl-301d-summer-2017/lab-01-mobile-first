@@ -35,3 +35,16 @@ a:hover, a:focus {
 
 a:visited {
 }
+
+ul {
+  display: none;
+}
+
+nav:hover ul {
+  display: block;
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
