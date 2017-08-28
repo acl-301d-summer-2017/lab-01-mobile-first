@@ -38,9 +38,9 @@
 .icon-power:before {
 	content: "\e90a";
 }
-.icon-menu:before {
+/* .icon-menu:before {
 	content: "\e902";
-}
+} */
 .icon-link:before {
 	content: "\e903";
 }
@@ -68,3 +68,7 @@
 .icon-github:before {
 	content: "\e907";
 }
+
+ .icon-menu:before {
+  content: "\e9bd";
+} 

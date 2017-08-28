@@ -15,6 +15,7 @@ hr {
 =======================================*/
 p {
   font-size: 1em;
+  
 }
 
 address {
@@ -34,4 +35,8 @@ a:hover, a:focus {
 }
 
 a:visited {
+}
+
+img {
+  max-width: 100%;
 }
