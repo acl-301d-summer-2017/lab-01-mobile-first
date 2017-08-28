@@ -7,8 +7,43 @@ Today we'll be kicking off our Blog App by applying what we learned in lecture t
 
 *Please take the time to read carefully through each of the READMEs for lab assignments as they have detailed information regarding your assignment, such as: how to get started, resources, goals, grading rubrics, and how to submit your work.*
 
+
+### TOC
+1. [Learning Objectives](#Learning-Objectives)
+1. [Feature Tasks](#Feature-Tasks)
+1. [Stretch Goals](#Stretch-Goals)
+1. [Submission Instructions](#Submission-Instructions)
+    - [Set up your repo](#Set-up-your-repo)
+    - [Write code together!](#Write-code-together!)
+    - [Switch roles](#Switch-roles)
+1. [Resources](#Resources)
+1. [Rubric](#Rubric)
+
+## Learning Objectives
+- Discuss the differences between mobile first design, responsive web design, and adaptive web design.
+- Create a flexible layout using the following: percentage based media, media queries, and fluid layout.
+- Scale a website to its viewport using the meta tag.
+- Streamline development using **live-server**.
+- Organize CSS using SMACSS.
+- Display icons on a website using icon fonts,  specifically IcoMoon.
+- Display icons on a website using the psuedo elements `:before` and `:after`.
+
+---
+
+## Feature Tasks
+To find all the tasks for your lab, be sure to do a project search (`[CMD or CTRL] + SHIFT + F`) for the keyword `TODO`. 
+1. Set up the viewport and fluid media rules so content fits on mobile devices.
+1. Add a "Hamburger" menu button, that reveals the nav links when tapped on a mobile device.
+2. Ensure the images are responsive.
+
+### Stretch Goals
+1. Use media queries to re-style the header and navigation on desktop-width screens. Nav should be tab-like links on one row.
+
+---
+
+
 ## Submission Instructions
-When you are finished with lab, follow these steps to submit your work. Create one Pull Request (aka: "PR") from your Forked repo to the CF repo with your changes, and you'll each submit that same PR link in Canvas.
+When you are finished with lab, follow these steps to submit your work. Create one Pull Request (aka: "PR") from your Forked repo to the ACL repo with your changes, and you'll each submit that same PR link in Canvas.
 
 1. Ensure that all your local changes are committed, and pushed to your origin repo.
 1. Visit the origin repo on github.com, and ensure that all of your completed work has been merged to master via Pull Requests within your repo.
@@ -76,29 +111,8 @@ Find those `TODO` items in the code, and tackle one of them.
 
 ---
 
-## Learning Objectives
-- Discuss the differences between mobile first design, responsive web design, and adaptive web design.
-- Create a flexible layout using the following: percentage based media, media queries, and fluid layout.
-- Scale a website to its viewport using the meta tag.
-- Streamline development using **live-server**.
-- Organize CSS using SMACSS.
-- Display icons on a website using icon fonts, and specifically IcoMoon.
-- Display icons on a website using the psuedo elements `:before` and `:after`.
-
----
-
 ## Resources  
 - [Video: Mobile Testing Tip for Your Phone] (https://www.youtube.com/watch?v=2t4E_tc8TKM)
-
----
-
-## Feature Tasks  
-1. Set up the viewport and fluid media rules so content fits on mobile devices.
-1. Add a "Hamburger" menu button, that reveals the nav links when tapped on a mobile device.
-2. Ensure the images are responsive
-
-### Stretch Goals
-1. Use media queries to re-style the header and navigation on desktop-width screens. Nav should be tab-like links on one row.
 
 ---
 
